@@ -17,12 +17,18 @@ import {
   docker,
   meta,
   starbucks,
+  oasis,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  nscc,
+  chat,
+  videoHub,
+  cart,
+  crypto,
 } from "../assets";
 
 export const navLinks = [
@@ -54,9 +60,9 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -116,94 +122,63 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Oasis Infobyte",
+    icon: oasis,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2023 – Oct 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "• Converted API from PHP to REST API using Nodejs and MongoDb to store data of Social Media App",
       "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Increased the speed of the App",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Namespace Member ",
+    company_name: "Tesla",
+    icon: nscc,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Dec. 2022 – Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "• Communicate with other member to for managing the event and organising event in campus.",
+      "Collaborating with designers, team managers, and other member to organize events.",
+      "Orgainsied events such as HacktoberFest 2023.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  }
+ 
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Ankit proved me wrong.",
+    name: "Ayush Garg",
+    designation: "Category Manager",
+    company: "PW",
+    image: "https://media.licdn.com/dms/image/D5603AQHfr9KHjzc6IA/profile-displayphoto-shrink_400_400/0/1708415080801?e=1726099200&v=beta&t=neWAULYlJ_Ldok0HlehHPyFQ_rlLhEruA5yiOpEGQKk",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Harshit Sachdeva",
+    designation: "Technical Team Member",
+    company: "Namespace",
+    image: "https://media.licdn.com/dms/image/D4D03AQF8lvYiztf5oA/profile-displayphoto-shrink_400_400/0/1688710615495?e=1726099200&v=beta&t=iYMLTkrVimD5C2PxYaszeIjR8r49PP17FcCScH1yJhI",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Chat App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, and chat with other users, providing a realtime communication.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -211,17 +186,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Socket",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: chat,
+    source_code_link: "https://github.com/ankit-lang/Chatapp-backend",
   },
   {
-    name: "Job IT",
+    name: "Video Hub",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users watch videos, view recorded videos",
     tags: [
       {
         name: "react",
@@ -232,33 +207,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MUI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: videoHub,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Cart",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive Cart allows users to out Items into the cart.",
     tags: [
       {
-        name: "nextjs",
+        name: "Redux",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "React",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ReduxThunk",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cart,
+    source_code_link: "https://github.com/ankit-lang",
+  },
+  {
+    name: "Crypto App",
+    description:
+      "A comprehensive App to view Data of about 3500 coins in different current according to country.",
+    tags: [
+      {
+        name: "Crypto",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: crypto,
+    source_code_link: "https://github.com/ankit-lang",
   },
 ];
 

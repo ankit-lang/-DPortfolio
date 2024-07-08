@@ -20,23 +20,32 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import chat from "./tech/chat.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import oasis from "./company/oasis.jpg"
+import nscc from "./company/namespace.jpg"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import videoHub from "./tech/videoHub.png"
+import cart from "./tech/cart.png"
+import crypto from "./tech/crypto.png"
 export {
   logo,
+  crypto,
   backend,
   creator,
+  oasis,
+  videoHub,
+  cart,
+  chat,
   mobile,
   web,
   github,
+  nscc,
   menu,
   close,
   css,
